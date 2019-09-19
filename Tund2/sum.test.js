@@ -28,8 +28,8 @@ const Add = require('./sum.js');
 test('sum "1"+2 is error', () =>
 {
     expect(function()
-    {Add("a", "5")
-    }).toThrow("Peavad numbrid olema");
+    {Add('a', '5');
+    }).toThrow('Peavad numbrid olema');
 });
 
 //console.log('sum(5, 10)', Add(5,10))

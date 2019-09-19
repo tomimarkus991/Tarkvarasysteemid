@@ -1,6 +1,7 @@
 {
-  "name": "Tund2",
+  "name": "tund2",
   "version": "1.0.0",
+  "description": "",
   "main": "sum.js",
   "dependencies": {
     "jest": "^24.9.0"
@@ -14,6 +15,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "description": ""
+  "license": "ISC"
 }
