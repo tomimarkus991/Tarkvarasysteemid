@@ -1,0 +1,20 @@
+{
+  "name": "testingwithnightwatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nightwatch.js",
+  "scripts": {
+    "google": "nightwatch /tests/e2e/google.js",
+    "e2e": "nightwatch --config nightwatch.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "env2": "^2.2.2",
+    "nightwatch": "^1.2.4"
+  },
+  "devDependencies": {
+    "chromedriver": "^78.0.1",
+    "selenium-server": "^3.141.59"
+  }
+}
