@@ -1,4 +1,4 @@
-require('env2')('.env'); // optionally store your Evironment Variables in .env
+require('env2')('./env/.env'); // optionally store your Evironment Variables in .env
 const seleniumServer = require("selenium-server");
 const chromedriver = require("chromedriver");
 const SCREENSHOT_PATH = "./screenshots/";
