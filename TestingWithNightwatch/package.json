@@ -4,9 +4,8 @@
   "description": "",
   "main": "nightwatch.js",
   "scripts": {
-    "google": "nightwatch ./tests/e2e/google.js",
-    "test": "nightwatch --env chrome",
-    "e2e": "nightwatch --config nightwatch.conf.js"
+    "google": "nightwatch /tests/e2e/google.js",
+    "test": "nightwatch --env chrome"
   },
   "author": "",
   "license": "ISC",
