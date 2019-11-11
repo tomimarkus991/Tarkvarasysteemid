@@ -1,0 +1,19 @@
+{
+  "name": "NightwatchTests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "2048": "nightwatch ./tests/2048.js",
+    "hehe": "nightwatch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^78.0.1"
+  },
+  "dependencies": {
+    "nightwatch": "^1.2.4"
+  }
+}
