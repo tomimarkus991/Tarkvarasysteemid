@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="feedbee"
+    errors="0" failures="1" hostname="" id="" package="feedbee" skipped="0"
+    tests="1" time="16.26" timestamp="">
+  
+    <testcase name="feedbee test" classname="feedbee" time="16.26" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;/html/body/div/div/div[2]/section/div[2]/div[1]/div[3]/div[3]/div[2]/div/div[2]/div/div/a&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m">    at Object.feedbee test (C:\TPT\TPT\TPT_SecondYear\Tarkvarasysteemid\NightwatchTests\tests\feedbee.js:10:10)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+    <failure message="    at Object.feedbee test (C:\TPT\TPT\TPT_SecondYear\Tarkvarasysteemid\NightwatchTests\tests\feedbee.js:10:10)">    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
