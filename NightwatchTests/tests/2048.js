@@ -1,16 +1,16 @@
-module.exports = {
-  '@tags': ['2048'],
-  '2048 test': function (browser) {
+module.exports =
+{
+  '2048 test': function (browser)
+  {
     browser
-      .maximizeWindow()
       .url('https://play2048.co')
       .waitForElementVisible('body')
-      // .maximizeWindow()
       .moveToElement('.game-container', 10, 10)
       .click('.game-container')
       .click('.restart-button', function (forike)
       {
-        for (let i = 0; i < 100; i++) {
+        for (let i = 0; i < 50; i++)
+        {
           let move = Math.floor((Math.random() * 4) + 1);
           switch (move) {
             case 1:
