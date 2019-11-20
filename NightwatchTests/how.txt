@@ -1,0 +1,8 @@
+Tegin uue projekti visual studio codeis
+runisin npm i
+installisin nightwatchi npm i nightwatch --save-dev
+installsiin chrome npm i chromedriver --save-dev
+tegin nightwatch.json faili, kus on sees see webdriver mida ma kasutada tahan ja test settingud
+andsin nightwatch.json failis | webdriveri sees chromedriverile server_pathi 
+Tegin testi faili kus testid
+lisasin nende lühendid package.json faili alla scriptidesse
