@@ -12,9 +12,20 @@
 
     "test_settings" : {
       "default" : {
-        "desiredCapabilities": {
+        "desiredCapabilities":
+        {
           "browserName" : "chrome",
-          "acceptInsecureCerts": true
+          "acceptInsecureCerts": true,
+          "javascriptEnabled" : true,
+          "chromeOptions" :
+          {
+            "args" : ["start-fullscreen"],
+            "prefs" :
+            {
+              "credentials_enable_service" : false,
+              "profile.password_manager_enabled" : false
+            }
+          }
         }
       }
     }
