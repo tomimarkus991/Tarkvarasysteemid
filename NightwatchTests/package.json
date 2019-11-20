@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "2048": "nightwatch ./tests/2048.js",
-    "feedbee": "nightwatch ./tests/feedbee.js"
+    "feedbee": "nightwatch ./tests/feedbee.js",
+    "youtube": "nightwatch ./tests/youtube.js"
   },
   "keywords": [],
   "author": "",
