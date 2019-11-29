@@ -19,6 +19,5 @@ module.exports =
         .click('/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[2]/div/div[1]/div')
         .pause(5000)
         .end()
-
     }
 };
