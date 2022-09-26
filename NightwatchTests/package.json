@@ -15,6 +15,6 @@
     "chromedriver": "^78.0.1"
   },
   "dependencies": {
-    "nightwatch": "^1.2.4"
+    "nightwatch": "^1.7.13"
   }
 }
